@@ -26,6 +26,7 @@ class Gettext < Formula
 
   on_linux do
     depends_on "acl"
+    depends_on "json-c" => :build
   end
 
   def install
